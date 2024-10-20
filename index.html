@@ -6,12 +6,18 @@
     <title>Document</title>
   </head>
   <body>
-    <div>
-      <h2>Loading Image</h2>
+    <h1>Upload a File</h1>
 
-      <div id="image-loader"></div>
-    </div>
+    <form action="fileUploadForm">
+      <input type="file" name="" id="fileInput" />
 
-    <script src="/3_chainingWithAsyncAwait.js"></script>
+      <button type="submit">Upload File</button>
+    </form>
+
+    <div id="preview"></div>
+
+    <div id="status"></div>
+
+    <script src="/6_wrapping_an_event_api_with_promises.js"></script>
   </body>
 </html>
