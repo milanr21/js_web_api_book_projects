@@ -4,7 +4,7 @@
 
 // This API has storage interface that process the data access and persistance. You don't directly create the instance of the Storage
 
-// The are two global instances window.localStorage and windw.sessionStorage
+// The are two global instances window.localStorage and window.sessionStorage
 
 // Getting and setting items
 
